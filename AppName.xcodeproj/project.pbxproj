@@ -13,6 +13,7 @@
 		A0A1B1A717136AFB00EBC3FF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A0A1B1A517136AFB00EBC3FF /* Credits.rtf */; };
 		A0A1B1AA17136AFB00EBC3FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */; };
 		A0A1B1AD17136AFB00EBC3FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A1B1AB17136AFB00EBC3FF /* MainMenu.xib */; };
+		A0E6191A1740723C00F9483E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E619191740723C00F9483E /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A0A1B1A817136AFB00EBC3FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A0A1B1AC17136AFB00EBC3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0E619181740723C00F9483E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A0E619191740723C00F9483E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				A0A1B1A817136AFB00EBC3FF /* AppDelegate.h */,
 				A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */,
 				A0A1B1AB17136AFB00EBC3FF /* MainMenu.xib */,
+				A0E619181740723C00F9483E /* MainViewController.h */,
+				A0E619191740723C00F9483E /* MainViewController.m */,
 				A0A1B19D17136AFB00EBC3FF /* Supporting Files */,
 			);
 			path = AppName;
@@ -168,6 +173,7 @@
 			files = (
 				A0A1B1A317136AFB00EBC3FF /* main.m in Sources */,
 				A0A1B1AA17136AFB00EBC3FF /* AppDelegate.m in Sources */,
+				A0E6191A1740723C00F9483E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				A0A1B1B217136AFB00EBC3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
