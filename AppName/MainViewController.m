@@ -12,11 +12,14 @@
 
 - (void)controlTextDidChange:(NSNotification *)obj
 {
-    textLabel.stringValue = textField.stringValue;
+    textLabelIphone.stringValue = textField.stringValue;
+    textLabelIpad.stringValue = textField.stringValue;
 }
 
 - (void)loadView
 {
-    [[textLabel cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    [[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    [[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
+
 }
 @end
