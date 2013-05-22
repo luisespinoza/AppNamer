@@ -21,6 +21,8 @@
 		A0B0A1991746B7F200992BC3 /* SNRHUDTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B0A18E1746B7F200992BC3 /* SNRHUDTextFieldCell.m */; };
 		A0B0A19A1746B7F200992BC3 /* SNRHUDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B0A1901746B7F200992BC3 /* SNRHUDTextView.m */; };
 		A0B0A19B1746B7F200992BC3 /* SNRHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B0A1921746B7F200992BC3 /* SNRHUDWindow.m */; };
+		A0B0A1A6174C631A00992BC3 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B0A1A5174C631A00992BC3 /* iphone.png */; };
+		A0B0A1A8174C634800992BC3 /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B0A1A7174C634800992BC3 /* ipad.png */; };
 		A0E6191A1740723C00F9483E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E619191740723C00F9483E /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		A0B0A1911746B7F200992BC3 /* SNRHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRHUDWindow.h; sourceTree = "<group>"; };
 		A0B0A1921746B7F200992BC3 /* SNRHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRHUDWindow.m; sourceTree = "<group>"; };
 		A0B0A1931746B7F200992BC3 /* SNRHUDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRHUDKit.h; sourceTree = "<group>"; };
+		A0B0A1A5174C631A00992BC3 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		A0B0A1A7174C634800992BC3 /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
 		A0E619181740723C00F9483E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A0E619191740723C00F9483E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +78,7 @@
 		A0A1B18A17136AFA00EBC3FF = {
 			isa = PBXGroup;
 			children = (
+				A0B0A19C174C379000992BC3 /* Resources */,
 				A0B0A17F1746B50700992BC3 /* Externals */,
 				A0A1B19C17136AFB00EBC3FF /* AppName */,
 				A0A1B19517136AFB00EBC3FF /* Frameworks */,
@@ -181,6 +186,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		A0B0A19C174C379000992BC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0B0A1A5174C631A00992BC3 /* iphone.png */,
+				A0B0A1A7174C634800992BC3 /* ipad.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,6 +249,8 @@
 				A0A1B1A117136AFB00EBC3FF /* InfoPlist.strings in Resources */,
 				A0A1B1A717136AFB00EBC3FF /* Credits.rtf in Resources */,
 				A0A1B1AD17136AFB00EBC3FF /* MainMenu.xib in Resources */,
+				A0B0A1A6174C631A00992BC3 /* iphone.png in Resources */,
+				A0B0A1A8174C634800992BC3 /* ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
