@@ -1296,7 +1296,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {290, 164}}</string>
+				<string key="NSWindowRect">{{335, 390}, {226, 164}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">AppName</string>
 				<string key="NSWindowClass">SNRHUDWindow</string>
@@ -1309,7 +1309,7 @@
 						<object class="NSTextField" id="70083919">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{20, 122}, {250, 22}}</string>
+							<string key="NSFrame">{{20, 122}, {186, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="342526542"/>
@@ -1351,8 +1351,8 @@
 						</object>
 						<object class="NSTextField" id="327469804">
 							<reference key="NSNextResponder" ref="439893737"/>
-							<int key="NSvFlags">301</int>
-							<string key="NSFrame">{{13, 20}, {80, 20}}</string>
+							<int key="NSvFlags">45</int>
+							<string key="NSFrame">{{14, 24}, {78, 16}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="365483190"/>
@@ -1362,9 +1362,9 @@
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="856826947">
 								<int key="NSCellFlags">67108928</int>
-								<int key="NSCellFlags2">138414848</int>
-								<string key="NSContents">Iiiiiiiiiiiiiiiiiiiiiiiiiiii</string>
-								<object class="NSFont" key="NSSupport" id="935243442">
+								<int key="NSCellFlags2">205523456</int>
+								<string key="NSContents"/>
+								<object class="NSFont" key="NSSupport">
 									<string key="NSName">Helvetica</string>
 									<double key="NSSize">12</double>
 									<int key="NSfFlags">16</int>
@@ -1382,8 +1382,8 @@
 						</object>
 						<object class="NSTextField" id="365483190">
 							<reference key="NSNextResponder" ref="439893737"/>
-							<int key="NSvFlags">301</int>
-							<string key="NSFrame">{{193, 20}, {88, 20}}</string>
+							<int key="NSvFlags">45</int>
+							<string key="NSFrame">{{130, 24}, {87, 16}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
@@ -1393,9 +1393,13 @@
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="1036214772">
 								<int key="NSCellFlags">67108928</int>
-								<int key="NSCellFlags2">138414848</int>
-								<string key="NSContents">Iiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</string>
-								<reference key="NSSupport" ref="935243442"/>
+								<int key="NSCellFlags2">205523456</int>
+								<string key="NSContents"/>
+								<object class="NSFont" key="NSSupport">
+									<string key="NSName">HelveticaNeue</string>
+									<double key="NSSize">12</double>
+									<int key="NSfFlags">16</int>
+								</object>
 								<string key="NSCellIdentifier">_NS:1535</string>
 								<reference key="NSControlView" ref="365483190"/>
 								<bool key="NSDrawsBackground">YES</bool>
@@ -1448,7 +1452,7 @@
 								<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
 								<string>NeXT TIFF v4.0 pasteboard type</string>
 							</set>
-							<string key="NSFrame">{{201, 45}, {72, 72}}</string>
+							<string key="NSFrame">{{137, 45}, {72, 72}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="327469804"/>
@@ -1471,7 +1475,7 @@
 							<bool key="NSEditable">YES</bool>
 						</object>
 					</array>
-					<string key="NSFrameSize">{290, 164}</string>
+					<string key="NSFrameSize">{226, 164}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="70083919"/>
@@ -2747,8 +2751,8 @@
 						<array class="NSMutableArray" key="children">
 							<reference ref="70083919"/>
 							<reference ref="342526542"/>
-							<reference ref="327469804"/>
 							<reference ref="202029911"/>
+							<reference ref="327469804"/>
 							<reference ref="365483190"/>
 						</array>
 						<reference key="parent" ref="972006081"/>
