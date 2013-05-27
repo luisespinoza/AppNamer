@@ -19,7 +19,12 @@
 - (void)loadView
 {
     [[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
-    [[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    [textLabelIphone sizeToFit];
+    [[textLabelIphone cell] setAlignment:NSJustifiedTextAlignment];
+    [[textLabelIphone cell] setMaxWidth:78];
+    [[textLabelIphone cell] setMinWidth:12];
 
+//    [textLabelIphone setPreferredMaxLayoutWidth:78.0];
+    [[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
 }
 @end

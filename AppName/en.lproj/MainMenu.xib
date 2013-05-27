@@ -1296,7 +1296,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {226, 164}}</string>
+				<string key="NSWindowRect">{{335, 390}, {226, 160}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">AppName</string>
 				<string key="NSWindowClass">SNRHUDWindow</string>
@@ -1309,7 +1309,7 @@
 						<object class="NSTextField" id="70083919">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{20, 122}, {186, 22}}</string>
+							<string key="NSFrame">{{20, 118}, {186, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="342526542"/>
@@ -1352,7 +1352,7 @@
 						<object class="NSTextField" id="327469804">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">45</int>
-							<string key="NSFrame">{{14, 24}, {78, 16}}</string>
+							<string key="NSFrame">{{14, 20}, {78, 16}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="365483190"/>
@@ -1362,11 +1362,11 @@
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="856826947">
 								<int key="NSCellFlags">67108928</int>
-								<int key="NSCellFlags2">205523456</int>
+								<int key="NSCellFlags2">205527552</int>
 								<string key="NSContents"/>
 								<object class="NSFont" key="NSSupport">
-									<string key="NSName">Helvetica</string>
-									<double key="NSSize">12</double>
+									<string key="NSName">HelveticaNeue-Bold</string>
+									<double key="NSSize">11</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<string key="NSCellIdentifier">_NS:1535</string>
@@ -1383,10 +1383,9 @@
 						<object class="NSTextField" id="365483190">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">45</int>
-							<string key="NSFrame">{{130, 24}, {87, 16}}</string>
+							<string key="NSFrame">{{130, 20}, {89, 16}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:1535</string>
 							<string key="NSHuggingPriority">{250, 750}</string>
 							<string key="NSAntiCompressionPriority">{250, 750}</string>
@@ -1396,8 +1395,8 @@
 								<int key="NSCellFlags2">205523456</int>
 								<string key="NSContents"/>
 								<object class="NSFont" key="NSSupport">
-									<string key="NSName">HelveticaNeue</string>
-									<double key="NSSize">12</double>
+									<string key="NSName">HelveticaNeue-Medium</string>
+									<double key="NSSize">11.5</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<string key="NSCellIdentifier">_NS:1535</string>
@@ -1419,7 +1418,7 @@
 								<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
 								<string>NeXT TIFF v4.0 pasteboard type</string>
 							</set>
-							<string key="NSFrame">{{17, 45}, {72, 72}}</string>
+							<string key="NSFrame">{{17, 41}, {72, 72}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="202029911"/>
@@ -1452,7 +1451,7 @@
 								<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
 								<string>NeXT TIFF v4.0 pasteboard type</string>
 							</set>
-							<string key="NSFrame">{{137, 45}, {72, 72}}</string>
+							<string key="NSFrame">{{137, 41}, {72, 72}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="327469804"/>
@@ -1475,7 +1474,7 @@
 							<bool key="NSEditable">YES</bool>
 						</object>
 					</array>
-					<string key="NSFrameSize">{226, 164}</string>
+					<string key="NSFrameSize">{226, 160}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="70083919"/>
@@ -3476,7 +3475,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">659</int>
+			<int key="maxID">664</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
