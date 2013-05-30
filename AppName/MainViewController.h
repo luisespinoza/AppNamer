@@ -27,5 +27,6 @@
     IBOutlet NSTextField *textField;
     IBOutlet NSTextField *textLabelIphone;
     IBOutlet NSTextField *textLabelIpad;
+    IBOutlet NSTextField *textLabelDisclaimer;
 }
 @end

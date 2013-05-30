@@ -52,7 +52,7 @@
         [self setOpaque:NO];
         [self setBackgroundColor:[NSColor clearColor]];
         [self setMovableByWindowBackground:YES];
-        [self setLevel:NSFloatingWindowLevel];
+        //[self setLevel:NSFloatingWindowLevel];
     }
     return self;
 }

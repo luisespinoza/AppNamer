@@ -16,15 +16,30 @@
     textLabelIpad.stringValue = textField.stringValue;
 }
 
-- (void)loadView
+- (void)awakeFromNib
 {
     [[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
-    [textLabelIphone sizeToFit];
-    [[textLabelIphone cell] setAlignment:NSJustifiedTextAlignment];
-    [[textLabelIphone cell] setMaxWidth:78];
-    [[textLabelIphone cell] setMinWidth:12];
-
-//    [textLabelIphone setPreferredMaxLayoutWidth:78.0];
+    //[textLabelIphone sizeToFit];
+    //[[textLabelIphone cell] setAlignment:NSJustifiedTextAlignment];
+    //[[textLabelIphone cell] setPreferredMaxLayoutWidth:78];
+    //[[textLabelIphone cell] setMinWidth:12];
+    
+    //    [textLabelIphone setPreferredMaxLayoutWidth:78.0];
     [[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    
+    [self loadDisclaimerText];
 }
+
+- (void)loadView
+{
+
+}
+
+- (void)loadDisclaimerText
+{
+    NSString *disclaimerString = @"© 2013 Luis Espinoza, All rights reserved";
+    //textLabelDisclaimer.alignment = NSJustifiedTextAlignment;
+    textLabelDisclaimer.stringValue = disclaimerString;
+}
+
 @end
