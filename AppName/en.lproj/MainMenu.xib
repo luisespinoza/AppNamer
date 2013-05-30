@@ -1493,7 +1493,7 @@
 								<int key="NSCellFlags2">138417152</int>
 								<string key="NSContents"/>
 								<object class="NSFont" key="NSSupport">
-									<string key="NSName">AvenirNext-UltraLight</string>
+									<string key="NSName">Helvetica-Light</string>
 									<double key="NSSize">10</double>
 									<int key="NSfFlags">16</int>
 								</object>
