@@ -1,2 +1,4 @@
 /* Localized versions of Info.plist keys */
 
+"APP_NAMER_FEEDBACK" = "Send us feedback";
+"APP_NAMER_ABOUT_TITLE" = " ";
