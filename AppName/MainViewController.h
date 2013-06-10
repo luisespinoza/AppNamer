@@ -30,4 +30,6 @@
     IBOutlet NSTextField *textLabelDisclaimer;
     //IBOutlet NSButton *buttonFeedback;
 }
+
+- (IBAction)sendFeedbackAction:(id)sender;
 @end

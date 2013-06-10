@@ -14,3 +14,8 @@
 "APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT" = "This is an approximation on how will look on an iPhone, running iOS 5 or iOS 6";
 "APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT" = "This is an approximation on how will look on an iPad, running iOS 5 or iOS 6";
 "APP_NAMER_HELP_TAG_FEEDBACK_BUTTON" = "Please, send us a mail with your feedback to make this a better app.";
+
+/* Feedback mail parameters */
+
+"APP_NAMER_FEEDBACK_ADDRESS" = "appnamer.feedback@luisespinoza.net";
+"APP_NAMER_FEEDBACK_SUBJECT" = "AppNamer feedback";

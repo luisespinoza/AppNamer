@@ -68,4 +68,18 @@
 //    }
 //}
 
+- (void)sendFeedbackAction:(id)sender
+{
+    NSString *subject = NSLocalizedString(@"APP_NAMER_FEEDBACK_SUBJECT",@"");
+    NSString *to = NSLocalizedString(@"APP_NAMER_FEEDBACK_ADDRESS",@"");
+    NSString *body = @"";
+    
+    NSString *encodedSubject = [NSString stringWithFormat:@"SUBJECT=%@", [subject stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    NSString *encodedBody = [NSString stringWithFormat:@"BODY=%@", [body stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    NSString *encodedTo = [to stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *encodedURLString = [NSString stringWithFormat:@"mailto:%@?%@&%@", encodedTo, encodedSubject, encodedBody];
+    NSURL *mailtoURL = [NSURL URLWithString:encodedURLString];
+    [[NSWorkspace sharedWorkspace] openURL:mailtoURL];
+}
+
 @end
