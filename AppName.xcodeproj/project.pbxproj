@@ -14,6 +14,7 @@
 		A0A1B1A717136AFB00EBC3FF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A0A1B1A517136AFB00EBC3FF /* Credits.rtf */; };
 		A0A1B1AA17136AFB00EBC3FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */; };
 		A0A1B1AD17136AFB00EBC3FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A1B1AB17136AFB00EBC3FF /* MainMenu.xib */; };
+		A0A8AB1D1765858900350DC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A8AB1B1765858900350DC7 /* Localizable.strings */; };
 		A0B0A1941746B7F200992BC3 /* NSBezierPath+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B0A1831746B7F200992BC3 /* NSBezierPath+MCAdditions.m */; };
 		A0B0A1951746B7F200992BC3 /* SNRHUDButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B0A1861746B7F200992BC3 /* SNRHUDButtonCell.m */; };
 		A0B0A1961746B7F200992BC3 /* SNRHUDImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B0A1881746B7F200992BC3 /* SNRHUDImageCell.m */; };
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		A06136FB1763C8D400683950 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		A0A1B19317136AFB00EBC3FF /* AppName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A1B19317136AFB00EBC3FF /* AppName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AppName.app; path = AppNamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A1B19617136AFB00EBC3FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A0A1B19917136AFB00EBC3FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A0A1B19A17136AFB00EBC3FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -42,6 +43,7 @@
 		A0A1B1A817136AFB00EBC3FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A0A1B1AC17136AFB00EBC3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0A8AB1C1765858900350DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A0B0A1821746B7F200992BC3 /* NSBezierPath+MCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+MCAdditions.h"; sourceTree = "<group>"; };
 		A0B0A1831746B7F200992BC3 /* NSBezierPath+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+MCAdditions.m"; sourceTree = "<group>"; };
 		A0B0A1851746B7F200992BC3 /* SNRHUDButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRHUDButtonCell.h; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				A0A1B1A217136AFB00EBC3FF /* main.m */,
 				A0A1B1A417136AFB00EBC3FF /* AppName-Prefix.pch */,
 				A0A1B1A517136AFB00EBC3FF /* Credits.rtf */,
+				A0A8AB1B1765858900350DC7 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				A0B0A1A6174C631A00992BC3 /* iphone.png in Resources */,
 				A0B0A1A8174C634800992BC3 /* ipad.png in Resources */,
 				A06136FC1763C8D400683950 /* icon.icns in Resources */,
+				A0A8AB1D1765858900350DC7 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,14 @@
 				A0A1B1AC17136AFB00EBC3FF /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A0A8AB1B1765858900350DC7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A8AB1C1765858900350DC7 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

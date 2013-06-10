@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  AppName
+
+  Created by Luis Enrique Espinoza Severino on 09-06-13.
+  Copyright (c) 2013 LuisEspinoza. All rights reserved.
+*/
+"APP_NAMER_FEEDBACK" = "Send us feedback";
+"APP_NAMER_ABOUT_TITLE" = " ";
+
+
+/* Help tags */
+"APP_NAMER_HELP_TAG_INPUT_TEXT_FIELD" = "Write a name for your app";
+"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT" = "This is an approximation on how will look on an iPhone, running iOS 5 or iOS 6";
+"APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT" = "This is an approximation on how will look on an iPad, running iOS 5 or iOS 6";
+"APP_NAMER_HELP_TAG_FEEDBACK_BUTTON" = "Please, send us a mail with your feedback to make this a better app.";

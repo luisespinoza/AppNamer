@@ -18,16 +18,19 @@
 
 - (void)awakeFromNib
 {
-    [[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    [self configureInputTextField];
+    
+    [self configureiPhoneOutputTextField];
+    
+    [self configureiPadOutputTextField];
+    
     //[textLabelIphone sizeToFit];
     //[[textLabelIphone cell] setAlignment:NSJustifiedTextAlignment];
     //[[textLabelIphone cell] setPreferredMaxLayoutWidth:78];
     //[[textLabelIphone cell] setMinWidth:12];
+    //[textLabelIphone setPreferredMaxLayoutWidth:78.0];
     
-    //    [textLabelIphone setPreferredMaxLayoutWidth:78.0];
-    [[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
-    
-    [self loadDisclaimerText];
+    //[self configureFeedbackButton];
 }
 
 - (void)loadView
@@ -35,11 +38,34 @@
 
 }
 
-- (void)loadDisclaimerText
+- (void)configureInputTextField
 {
-    NSString *disclaimerString = @"© 2013 Luis Espinoza, All rights reserved";
-    //textLabelDisclaimer.alignment = NSJustifiedTextAlignment;
-    textLabelDisclaimer.stringValue = disclaimerString;
+    if (textField) {
+        textField.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_INPUT_TEXT_FIELD", @"");
+    }
 }
+
+- (void)configureiPhoneOutputTextField
+{
+    if (textLabelIphone) {
+        textLabelIphone.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT", @"");
+        [[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    }
+}
+
+- (void)configureiPadOutputTextField
+{
+    if (textLabelIpad) {
+        textLabelIpad.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT", @"");
+        [[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    }
+}
+
+//- (void)configureFeedbackButton
+//{
+//    if (buttonFeedback) {
+//        buttonFeedback.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_FEEDBACK_BUTTON", @"");
+//    }
+//}
 
 @end
