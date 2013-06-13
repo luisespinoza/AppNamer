@@ -30,7 +30,8 @@
 
 /* Begin PBXFileReference section */
 		A06136FB1763C8D400683950 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		A0A1B19317136AFB00EBC3FF /* AppName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AppName.app; path = AppNamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08D02711766E1E100C105CE /* AppNamer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AppNamer.entitlements; sourceTree = "<group>"; };
+		A0A1B19317136AFB00EBC3FF /* AppNamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppNamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A1B19617136AFB00EBC3FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A0A1B19917136AFB00EBC3FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A0A1B19A17136AFB00EBC3FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -82,6 +83,7 @@
 		A0A1B18A17136AFA00EBC3FF = {
 			isa = PBXGroup;
 			children = (
+				A08D02711766E1E100C105CE /* AppNamer.entitlements */,
 				A0B0A19C174C379000992BC3 /* Resources */,
 				A0B0A17F1746B50700992BC3 /* Externals */,
 				A0A1B19C17136AFB00EBC3FF /* AppName */,
@@ -93,7 +95,7 @@
 		A0A1B19417136AFB00EBC3FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0A1B19317136AFB00EBC3FF /* AppName.app */,
+				A0A1B19317136AFB00EBC3FF /* AppNamer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,7 +220,7 @@
 			);
 			name = AppNamer;
 			productName = AppName;
-			productReference = A0A1B19317136AFB00EBC3FF /* AppName.app */;
+			productReference = A0A1B19317136AFB00EBC3FF /* AppNamer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -383,6 +385,8 @@
 		A0A1B1B117136AFB00EBC3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppNamer.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppName/AppName-Prefix.pch";
@@ -395,11 +399,14 @@
 		A0A1B1B217136AFB00EBC3FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppNamer.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppName/AppName-Prefix.pch";
 				INFOPLIST_FILE = "AppName/AppName-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
