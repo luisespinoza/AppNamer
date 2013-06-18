@@ -12,6 +12,11 @@
 
 - (void)controlTextDidChange:(NSNotification *)obj
 {
+    //NSLog(@"%ld",(unsigned long)[textField.stringValue length]);
+
+    if ([textField.stringValue length] > 256) {
+        return;
+    }
     textLabelIphone.stringValue = textField.stringValue;
     textLabelIpad.stringValue = textField.stringValue;
 }
