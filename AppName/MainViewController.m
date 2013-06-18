@@ -54,7 +54,7 @@
 {
     if (textLabelIphone) {
         textLabelIphone.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT", @"");
-        [[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
+        //[[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
     }
 }
 
@@ -62,7 +62,7 @@
 {
     if (textLabelIpad) {
         textLabelIpad.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT", @"");
-        [[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
+        //[[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
     }
 }
 

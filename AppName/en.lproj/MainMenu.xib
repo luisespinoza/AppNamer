@@ -1398,9 +1398,10 @@
 						<object class="NSTextField" id="365483190">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">45</int>
-							<string key="NSFrame">{{127, 26}, {88, 16}}</string>
+							<string key="NSFrame">{{127, 26}, {88, 18}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:1535</string>
 							<string key="NSHuggingPriority">{250, 750}</string>
 							<string key="NSAntiCompressionPriority">{250, 750}</string>
@@ -1411,7 +1412,7 @@
 								<string key="NSContents"/>
 								<object class="NSFont" key="NSSupport">
 									<string key="NSName">HelveticaNeue-Bold</string>
-									<double key="NSSize">11.5</double>
+									<double key="NSSize">11.800000190734863</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<string key="NSCellIdentifier">_NS:1535</string>
