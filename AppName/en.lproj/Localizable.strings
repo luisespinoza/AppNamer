@@ -5,9 +5,6 @@
   Created by Luis Enrique Espinoza Severino on 09-06-13.
   Copyright (c) 2013 LuisEspinoza. All rights reserved.
 */
-"APP_NAMER_FEEDBACK" = "Send us feedback";
-"APP_NAMER_ABOUT_TITLE" = " ";
-
 
 /* Help tags */
 "APP_NAMER_HELP_TAG_INPUT_TEXT_FIELD" = "Write a name for your app";

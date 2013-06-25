@@ -42,6 +42,10 @@
 		A0A8AB1C1765858900350DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A0B0A1A5174C631A00992BC3 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		A0B0A1A7174C634800992BC3 /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
+		A0CE6414177957200076AB0D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0CE6415177957200076AB0D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0CE6416177957200076AB0D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = es; path = es.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A0CE6417177957200076AB0D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A0E619181740723C00F9483E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A0E619191740723C00F9483E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +181,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = A0A1B18A17136AFA00EBC3FF;
 			productRefGroup = A0A1B19417136AFB00EBC3FF /* Products */;
@@ -224,6 +229,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0A1B1A017136AFB00EBC3FF /* en */,
+				A0CE6415177957200076AB0D /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0A1B1A617136AFB00EBC3FF /* en */,
+				A0CE6416177957200076AB0D /* es */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -240,6 +247,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0A1B1AC17136AFB00EBC3FF /* en */,
+				A0CE6414177957200076AB0D /* es */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0A8AB1C1765858900350DC7 /* en */,
+				A0CE6417177957200076AB0D /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
