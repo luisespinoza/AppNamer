@@ -153,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0A1B1B017136AFB00EBC3FF /* Build configuration list for PBXNativeTarget "AppNamer" */;
 			buildPhases = (
+				A08FA58D1779E52900AC4E7E /* ShellScript */,
 				A0A1B18F17136AFA00EBC3FF /* Sources */,
 				A0A1B19017136AFA00EBC3FF /* Frameworks */,
 				A0A1B19117136AFA00EBC3FF /* Resources */,
@@ -209,6 +210,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A08FA58D1779E52900AC4E7E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$((0x$buildNumber))\nbuildNumber=$(($buildNumber + 1))\nbuildNumber=$(printf \"%04X\" $buildNumber)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0A1B18F17136AFA00EBC3FF /* Sources */ = {
