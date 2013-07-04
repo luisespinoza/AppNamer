@@ -8,7 +8,7 @@
 
 /* Help tags */
 "APP_NAMER_HELP_TAG_INPUT_TEXT_FIELD" = "Escribe un nombre para tu App";
-"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT" = "Así lucirá el nombre en el home de un iPhone o iPod touch";
+"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT" = "Así lucirá el nombre en el home de un iPhone";
 "APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT" = "Así lucirá el nombre en el home de un iPad";
 "APP_NAMER_HELP_TAG_FEEDBACK_BUTTON" = "Por favor, envíanos un correo con tus sugerencias";
 
