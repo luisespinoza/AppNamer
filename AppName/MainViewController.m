@@ -8,6 +8,19 @@
 
 #import "MainViewController.h"
 
+#define IOS6_IPHONE_OUTPUT_X                    11
+#define IOS6_IPHONE_OUTPUT_Y                    26
+#define IOS6_IPHONE_OUTPUT_MAX_WIDTH            78
+#define IOS6_IPHONE_OUTPUT_HEIGHT               16
+#define IOS6_IPHONE_OUTPUT_FONT                 [NSFont fontWithName:@"Helvetica Neue Bold" size:11]
+
+#define IOS6_IPAD_OUTPUT_X                      127
+#define IOS6_IPAD_OUTPUT_Y                      26
+#define IOS6_IPAD_OUTPUT_MAX_WIDTH              88
+#define IOS6_IPAD_OUTPUT_HEIGHT                 18
+#define IOS6_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue Bold" size:11.8]
+
+
 @implementation MainViewController
 
 - (void)controlTextDidChange:(NSNotification *)obj
