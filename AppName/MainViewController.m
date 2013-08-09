@@ -8,13 +8,13 @@
 
 #import "MainViewController.h"
 
-#define IOS6_IPHONE_OUTPUT_X                    11
+#define IOS6_IPHONE_OUTPUT_X                    50
 #define IOS6_IPHONE_OUTPUT_Y                    26
 #define IOS6_IPHONE_OUTPUT_MAX_WIDTH            78
 #define IOS6_IPHONE_OUTPUT_HEIGHT               16
 #define IOS6_IPHONE_OUTPUT_FONT                 [NSFont fontWithName:@"Helvetica Neue Bold" size:11]
 
-#define IOS6_IPAD_OUTPUT_X                      127
+#define IOS6_IPAD_OUTPUT_X                      170
 #define IOS6_IPAD_OUTPUT_Y                      26
 #define IOS6_IPAD_OUTPUT_MAX_WIDTH              88
 #define IOS6_IPAD_OUTPUT_HEIGHT                 18
@@ -26,12 +26,29 @@
 - (void)controlTextDidChange:(NSNotification *)obj
 {
     //NSLog(@"%ld",(unsigned long)[textField.stringValue length]);
-
+    
     if ([textField.stringValue length] > 256) {
         return;
     }
+    
     textLabelIphone.stringValue = textField.stringValue;
+    
+    if (textLabelIphone.frame.size.width < IOS6_IPHONE_OUTPUT_MAX_WIDTH) {
+        [textLabelIphone sizeToFit];
+        textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-textLabelIphone.frame.size.width/2,
+                                           IOS6_IPHONE_OUTPUT_Y,
+                                           textLabelIphone.frame.size.width,
+                                           16);
+    }
+    
     textLabelIpad.stringValue = textField.stringValue;
+    if (textLabelIpad.frame.size.width < IOS6_IPAD_OUTPUT_MAX_WIDTH) {
+        [textLabelIpad sizeToFit];
+        textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-textLabelIpad.frame.size.width/2,
+                                         IOS6_IPAD_OUTPUT_Y,
+                                         textLabelIpad.frame.size.width,
+                                         18);
+    }
 }
 
 - (void)awakeFromNib
@@ -41,19 +58,11 @@
     [self configureiOS6iPhoneOutputTextField];
     
     [self configureiOS6iPadOutputTextField];
-    
-    //[textLabelIphone sizeToFit];
-    //[[textLabelIphone cell] setAlignment:NSJustifiedTextAlignment];
-    //[[textLabelIphone cell] setPreferredMaxLayoutWidth:78];
-    //[[textLabelIphone cell] setMinWidth:12];
-    //[textLabelIphone setPreferredMaxLayoutWidth:78.0];
-    
-    //[self configureFeedbackButton];
 }
 
 - (void)loadView
 {
-
+    
 }
 
 - (void)configureInputTextField
@@ -71,8 +80,11 @@
     //Font = Helvetica Neue Bold 11
     
     if (textLabelIphone) {
+        
+        textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-IOS6_IPHONE_OUTPUT_MAX_WIDTH/2,
+                                           IOS6_IPHONE_OUTPUT_Y, 0, 16);
+        [[textLabelIphone cell] setAlignment:NSJustifiedTextAlignment];
         textLabelIphone.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT", @"");
-        //[[textLabelIphone cell] setBackgroundStyle:NSBackgroundStyleRaised];
     }
 }
 
@@ -84,8 +96,10 @@
     //Font = Helvetica Neue Bold 11.8
     
     if (textLabelIpad) {
+        textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-IOS6_IPAD_OUTPUT_MAX_WIDTH/2,
+                                         IOS6_IPAD_OUTPUT_Y, 0, 18);
+        [[textLabelIpad cell] setAlignment:NSJustifiedTextAlignment];
         textLabelIpad.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT", @"");
-        //[[textLabelIpad cell] setBackgroundStyle:NSBackgroundStyleRaised];
     }
 }
 
