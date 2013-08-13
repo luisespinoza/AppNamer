@@ -33,23 +33,35 @@
     
     textLabelIphone.stringValue = textField.stringValue;
     
+    [textLabelIphone sizeToFit];
     if (textLabelIphone.frame.size.width < IOS6_IPHONE_OUTPUT_MAX_WIDTH) {
-        [textLabelIphone sizeToFit];
+        
         textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-textLabelIphone.frame.size.width/2,
                                            IOS6_IPHONE_OUTPUT_Y,
                                            textLabelIphone.frame.size.width,
                                            16);
+    } else {
+        textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-IOS6_IPHONE_OUTPUT_MAX_WIDTH/2,
+                                           IOS6_IPHONE_OUTPUT_Y,
+                                           IOS6_IPHONE_OUTPUT_MAX_WIDTH,
+                                           16);
     }
     
     textLabelIpad.stringValue = textField.stringValue;
+    [textLabelIpad sizeToFit];
     if (textLabelIpad.frame.size.width < IOS6_IPAD_OUTPUT_MAX_WIDTH) {
-        [textLabelIpad sizeToFit];
         textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-textLabelIpad.frame.size.width/2,
                                          IOS6_IPAD_OUTPUT_Y,
                                          textLabelIpad.frame.size.width,
                                          18);
+    } else {
+        textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-IOS6_IPAD_OUTPUT_MAX_WIDTH/2,
+                                         IOS6_IPAD_OUTPUT_Y,
+                                         IOS6_IPAD_OUTPUT_MAX_WIDTH,
+                                         18);
     }
 }
+
 
 - (void)awakeFromNib
 {
