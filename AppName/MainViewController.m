@@ -20,48 +20,18 @@
 #define IOS6_IPAD_OUTPUT_HEIGHT                 18
 #define IOS6_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue Bold" size:11.8]
 
+//Version 1.2 new defines
+#define ROW_LIGHT_COLOR                         [NSColor colorWithCalibratedRed:233/255. green:233/255. blue:233/255. alpha:1.0]
+#define ROW_DARK_COLOR                          [NSColor colorWithCalibratedRed:223/255. green:223/255. blue:223/255. alpha:1.0]
+#define ROW_BORDER_COLOR                        [NSColor colorWithCalibratedRed:206/255. green:206/255. blue:206/255. alpha:1.0]
 
 @implementation MainViewController
 
-- (void)controlTextDidChange:(NSNotification *)obj
+#pragma mark - Initial set up0
+- (void)loadView
 {
-    //NSLog(@"%ld",(unsigned long)[textField.stringValue length]);
     
-    if ([textField.stringValue length] > 256) {
-        return;
-    }
-    
-    textLabelIphone.stringValue = textField.stringValue;
-    
-    [textLabelIphone sizeToFit];
-    if (textLabelIphone.frame.size.width < IOS6_IPHONE_OUTPUT_MAX_WIDTH) {
-        
-        textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-textLabelIphone.frame.size.width/2,
-                                           IOS6_IPHONE_OUTPUT_Y,
-                                           textLabelIphone.frame.size.width,
-                                           16);
-    } else {
-        textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-IOS6_IPHONE_OUTPUT_MAX_WIDTH/2,
-                                           IOS6_IPHONE_OUTPUT_Y,
-                                           IOS6_IPHONE_OUTPUT_MAX_WIDTH,
-                                           16);
-    }
-    
-    textLabelIpad.stringValue = textField.stringValue;
-    [textLabelIpad sizeToFit];
-    if (textLabelIpad.frame.size.width < IOS6_IPAD_OUTPUT_MAX_WIDTH) {
-        textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-textLabelIpad.frame.size.width/2,
-                                         IOS6_IPAD_OUTPUT_Y,
-                                         textLabelIpad.frame.size.width,
-                                         18);
-    } else {
-        textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-IOS6_IPAD_OUTPUT_MAX_WIDTH/2,
-                                         IOS6_IPAD_OUTPUT_Y,
-                                         IOS6_IPAD_OUTPUT_MAX_WIDTH,
-                                         18);
-    }
 }
-
 
 - (void)awakeFromNib
 {
@@ -70,11 +40,8 @@
     [self configureiOS6iPhoneOutputTextField];
     
     [self configureiOS6iPadOutputTextField];
-}
-
-- (void)loadView
-{
     
+    [self configureBoxes];
 }
 
 - (void)configureInputTextField
@@ -112,6 +79,59 @@
                                          IOS6_IPAD_OUTPUT_Y, 0, 18);
         [[textLabelIpad cell] setAlignment:NSJustifiedTextAlignment];
         textLabelIpad.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT", @"");
+    }
+}
+
+- (void)configureBoxes
+{
+    boxIOS6.borderColor = ROW_BORDER_COLOR;
+    boxIOS6.fillColor = ROW_LIGHT_COLOR;
+    boxIOS6.titlePosition = NSBelowTop;
+    boxIOS6.needsDisplay = YES;
+    
+    boxIOS7.borderColor = ROW_BORDER_COLOR;
+    boxIOS7.fillColor = ROW_DARK_COLOR;
+    boxIOS7.titlePosition = NSBelowTop;
+    boxIOS7.needsDisplay = YES;
+}
+#pragma mark -  Events and actions
+
+- (void)controlTextDidChange:(NSNotification *)obj
+{
+    //NSLog(@"%ld",(unsigned long)[textField.stringValue length]);
+    
+    if ([textField.stringValue length] > 256) {
+        return;
+    }
+    
+    textLabelIphone.stringValue = textField.stringValue;
+    
+    [textLabelIphone sizeToFit];
+    if (textLabelIphone.frame.size.width < IOS6_IPHONE_OUTPUT_MAX_WIDTH) {
+        
+        textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-textLabelIphone.frame.size.width/2,
+                                           IOS6_IPHONE_OUTPUT_Y,
+                                           textLabelIphone.frame.size.width,
+                                           16);
+    } else {
+        textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-IOS6_IPHONE_OUTPUT_MAX_WIDTH/2,
+                                           IOS6_IPHONE_OUTPUT_Y,
+                                           IOS6_IPHONE_OUTPUT_MAX_WIDTH,
+                                           16);
+    }
+    
+    textLabelIpad.stringValue = textField.stringValue;
+    [textLabelIpad sizeToFit];
+    if (textLabelIpad.frame.size.width < IOS6_IPAD_OUTPUT_MAX_WIDTH) {
+        textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-textLabelIpad.frame.size.width/2,
+                                         IOS6_IPAD_OUTPUT_Y,
+                                         textLabelIpad.frame.size.width,
+                                         18);
+    } else {
+        textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-IOS6_IPAD_OUTPUT_MAX_WIDTH/2,
+                                         IOS6_IPAD_OUTPUT_Y,
+                                         IOS6_IPAD_OUTPUT_MAX_WIDTH,
+                                         18);
     }
 }
 

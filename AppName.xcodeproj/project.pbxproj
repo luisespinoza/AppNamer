@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A040CF67176FF46800762FC9 /* VerticalCenteredCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A040CF66176FF46800762FC9 /* VerticalCenteredCell.m */; };
 		A06136FC1763C8D400683950 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A06136FB1763C8D400683950 /* icon.icns */; };
+		A06BDCAA17ED3D38000E931B /* CustomNSBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A06BDCA917ED3D38000E931B /* CustomNSBox.m */; };
 		A0A1B19717136AFB00EBC3FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A1B19617136AFB00EBC3FF /* Cocoa.framework */; };
 		A0A1B1A117136AFB00EBC3FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A1B19F17136AFB00EBC3FF /* InfoPlist.strings */; };
 		A0A1B1A317136AFB00EBC3FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1B1A217136AFB00EBC3FF /* main.m */; };
@@ -25,6 +26,8 @@
 		A040CF65176FF46800762FC9 /* VerticalCenteredCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalCenteredCell.h; sourceTree = "<group>"; };
 		A040CF66176FF46800762FC9 /* VerticalCenteredCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalCenteredCell.m; sourceTree = "<group>"; };
 		A06136FB1763C8D400683950 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		A06BDCA817ED3D38000E931B /* CustomNSBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNSBox.h; sourceTree = "<group>"; };
+		A06BDCA917ED3D38000E931B /* CustomNSBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNSBox.m; sourceTree = "<group>"; };
 		A08D02711766E1E100C105CE /* AppNamer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AppNamer.entitlements; sourceTree = "<group>"; };
 		A0A1B19317136AFB00EBC3FF /* AppNamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppNamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A1B19617136AFB00EBC3FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -62,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A06BDCA717ED3D23000E931B /* CustomNSBox */ = {
+			isa = PBXGroup;
+			children = (
+				A06BDCA817ED3D38000E931B /* CustomNSBox.h */,
+				A06BDCA917ED3D38000E931B /* CustomNSBox.m */,
+			);
+			path = CustomNSBox;
+			sourceTree = "<group>";
+		};
 		A0A1B18A17136AFA00EBC3FF = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		A0A1B19C17136AFB00EBC3FF /* AppName */ = {
 			isa = PBXGroup;
 			children = (
+				A06BDCA717ED3D23000E931B /* CustomNSBox */,
 				A0A1B1A817136AFB00EBC3FF /* AppDelegate.h */,
 				A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */,
 				A0A1B1AB17136AFB00EBC3FF /* MainMenu.xib */,
@@ -236,6 +249,7 @@
 				A0A1B1AA17136AFB00EBC3FF /* AppDelegate.m in Sources */,
 				A0E6191A1740723C00F9483E /* MainViewController.m in Sources */,
 				A040CF67176FF46800762FC9 /* VerticalCenteredCell.m in Sources */,
+				A06BDCAA17ED3D38000E931B /* CustomNSBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
