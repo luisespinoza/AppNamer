@@ -8,22 +8,35 @@
 
 #import "MainViewController.h"
 
-#define IOS6_IPHONE_OUTPUT_X                    50
-#define IOS6_IPHONE_OUTPUT_Y                    26
+
 #define IOS6_IPHONE_OUTPUT_MAX_WIDTH            78
 #define IOS6_IPHONE_OUTPUT_HEIGHT               16
+#define IOS6_IPHONE_OUTPUT_X                    (42+IOS6_IPHONE_OUTPUT_MAX_WIDTH/2)
+#define IOS6_IPHONE_OUTPUT_Y                    15
 #define IOS6_IPHONE_OUTPUT_FONT                 [NSFont fontWithName:@"Helvetica Neue Bold" size:11]
 
-#define IOS6_IPAD_OUTPUT_X                      170
-#define IOS6_IPAD_OUTPUT_Y                      26
 #define IOS6_IPAD_OUTPUT_MAX_WIDTH              88
 #define IOS6_IPAD_OUTPUT_HEIGHT                 18
+#define IOS6_IPAD_OUTPUT_X                      (200+IOS6_IPAD_OUTPUT_MAX_WIDTH/2)
+#define IOS6_IPAD_OUTPUT_Y                      14
 #define IOS6_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue Bold" size:11.8]
 
 //Version 1.2 new defines
 #define ROW_LIGHT_COLOR                         [NSColor colorWithCalibratedRed:233/255. green:233/255. blue:233/255. alpha:1.0]
 #define ROW_DARK_COLOR                          [NSColor colorWithCalibratedRed:223/255. green:223/255. blue:223/255. alpha:1.0]
 #define ROW_BORDER_COLOR                        [NSColor colorWithCalibratedRed:206/255. green:206/255. blue:206/255. alpha:1.0]
+
+#define IOS7_IPHONE_OUTPUT_X                    50
+#define IOS7_IPHONE_OUTPUT_Y                    26
+#define IOS7_IPHONE_OUTPUT_MAX_WIDTH            78
+#define IOS7_IPHONE_OUTPUT_HEIGHT               16
+#define IOS7_IPHONE_OUTPUT_FONT                 [NSFont fontWithName:@"Helvetica Neue Bold" size:11]
+
+#define IOS7_IPAD_OUTPUT_X                      170
+#define IOS7_IPAD_OUTPUT_Y                      26
+#define IOS7_IPAD_OUTPUT_MAX_WIDTH              88
+#define IOS7_IPAD_OUTPUT_HEIGHT                 18
+#define IOS7_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue Bold" size:11.8]
 
 @implementation MainViewController
 

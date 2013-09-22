@@ -188,6 +188,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = LuisEspinoza;
+				TargetAttributes = {
+					A0A1B19217136AFA00EBC3FF = {
+						DevelopmentTeam = KCCR4N2HC2;
+					};
+				};
 			};
 			buildConfigurationList = A0A1B18E17136AFA00EBC3FF /* Build configuration list for PBXProject "AppName" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,7 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AppNamer.entitlements;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppName/AppName-Prefix.pch";
