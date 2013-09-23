@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface VerticalCenteredCell : NSCell
+@interface VerticalCenteredCell : NSTextFieldCell
 
 @end
