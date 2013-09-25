@@ -26,17 +26,17 @@
 #define ROW_DARK_COLOR                          [NSColor colorWithCalibratedRed:223/255. green:223/255. blue:223/255. alpha:1.0]
 #define ROW_BORDER_COLOR                        [NSColor colorWithCalibratedRed:206/255. green:206/255. blue:206/255. alpha:1.0]
 
-#define IOS7_IPHONE_OUTPUT_MAX_WIDTH            78
-#define IOS7_IPHONE_OUTPUT_HEIGHT               16
+#define IOS7_IPHONE_OUTPUT_MAX_WIDTH            75
+#define IOS7_IPHONE_OUTPUT_HEIGHT               18
 #define IOS7_IPHONE_OUTPUT_X                    (42+IOS7_IPHONE_OUTPUT_MAX_WIDTH/2)
-#define IOS7_IPHONE_OUTPUT_Y                    15
+#define IOS7_IPHONE_OUTPUT_Y                    14
 #define IOS7_IPHONE_OUTPUT_FONT                 [NSFont fontWithName:@"Helvetica Neue Light" size:12]
 
 #define IOS7_IPAD_OUTPUT_MAX_WIDTH              88
 #define IOS7_IPAD_OUTPUT_HEIGHT                 18
 #define IOS7_IPAD_OUTPUT_X                      (200+IOS7_IPAD_OUTPUT_MAX_WIDTH/2)
 #define IOS7_IPAD_OUTPUT_Y                      14
-#define IOS7_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue Light" size:11.8]
+#define IOS7_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue Light" size:12]
 
 @implementation MainViewController
 
@@ -103,7 +103,7 @@
     
     if (textLabelIphoneIOS7) {
         textLabelIphoneIOS7.frame = CGRectMake(IOS7_IPHONE_OUTPUT_X-IOS7_IPHONE_OUTPUT_MAX_WIDTH/2,
-                                               IOS7_IPHONE_OUTPUT_Y, 0, 16);
+                                               IOS7_IPHONE_OUTPUT_Y, 0, IOS7_IPHONE_OUTPUT_HEIGHT);
         [[textLabelIphoneIOS7 cell] setAlignment:NSCenterTextAlignment];
         textLabelIphoneIOS7.font = IOS7_IPHONE_OUTPUT_FONT;
         textLabelIphoneIOS7.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS7_IPHONE_OUTPUT", @"");
@@ -119,7 +119,7 @@
     
     if (textLabelIpadIOS7) {
         textLabelIpadIOS7.frame = CGRectMake(IOS7_IPAD_OUTPUT_X-IOS7_IPAD_OUTPUT_MAX_WIDTH/2,
-                                             IOS7_IPAD_OUTPUT_Y, 0, 18);
+                                             IOS7_IPAD_OUTPUT_Y, 0, IOS7_IPAD_OUTPUT_HEIGHT);
         [[textLabelIpadIOS7 cell] setAlignment:NSCenterTextAlignment];
         textLabelIpadIOS7.font = IOS7_IPAD_OUTPUT_FONT;
         textLabelIpadIOS7.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS7_IPAD_OUTPUT", @"");
@@ -197,12 +197,12 @@
         textLabelIphoneIOS7.frame = CGRectMake(IOS7_IPHONE_OUTPUT_X-textLabelIphoneIOS7.frame.size.width/2,
                                                IOS7_IPHONE_OUTPUT_Y,
                                                textLabelIphoneIOS7.frame.size.width,
-                                               16);
+                                               IOS7_IPHONE_OUTPUT_HEIGHT);
     } else {
         textLabelIphoneIOS7.frame = CGRectMake(IOS7_IPHONE_OUTPUT_X-IOS7_IPHONE_OUTPUT_MAX_WIDTH/2,
                                                IOS7_IPHONE_OUTPUT_Y,
                                                IOS7_IPHONE_OUTPUT_MAX_WIDTH,
-                                               16);
+                                               IOS7_IPHONE_OUTPUT_HEIGHT);
     }
     
     //iPad iOS 7
@@ -212,12 +212,12 @@
         textLabelIpadIOS7.frame = CGRectMake(IOS7_IPAD_OUTPUT_X-textLabelIpadIOS7.frame.size.width/2,
                                              IOS7_IPAD_OUTPUT_Y,
                                              textLabelIpadIOS7.frame.size.width,
-                                             18);
+                                             IOS7_IPAD_OUTPUT_HEIGHT);
     } else {
         textLabelIpadIOS7.frame = CGRectMake(IOS7_IPAD_OUTPUT_X-IOS7_IPAD_OUTPUT_MAX_WIDTH/2,
                                              IOS7_IPAD_OUTPUT_Y,
                                              IOS7_IPAD_OUTPUT_MAX_WIDTH,
-                                             18);
+                                             IOS7_IPAD_OUTPUT_HEIGHT);
     }
 }
 

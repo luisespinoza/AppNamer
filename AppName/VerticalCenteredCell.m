@@ -11,6 +11,11 @@
 @implementation VerticalCenteredCell
 
 -(void)drawInteriorWithFrame:(NSRect)cellFrame inView:(NSView *)controlView {
+    
+    [self.backgroundColor set];
+    [NSBezierPath fillRect:cellFrame];
+    
+    
     NSAttributedString *attrString = self.attributedStringValue;
     
     /* if your values can be attributed strings, make them white when selected */
@@ -42,6 +47,12 @@
         titleFrame.size.height = textRect.size.height;
     }
     return titleFrame;
+}
+
+- (BOOL)drawsBackground
+{
+    self.backgroundColor = [NSColor blackColor];
+    return YES;
 }
 
 @end

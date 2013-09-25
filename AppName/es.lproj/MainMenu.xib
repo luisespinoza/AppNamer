@@ -699,12 +699,12 @@
                                     </textFieldCell>
                                 </textField>
                                 <imageView id="656">
-                                    <rect key="frame" x="45" y="37" width="72" height="72"/>
+                                    <rect key="frame" x="45" y="-75" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="iphone" id="657"/>
                                 </imageView>
                                 <imageView id="658">
-                                    <rect key="frame" x="208" y="37" width="72" height="72"/>
+                                    <rect key="frame" x="208" y="-75" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="ipad" id="659"/>
                                 </imageView>
@@ -724,7 +724,7 @@
                                 <textField autoresizesSubviews="NO" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="685">
                                     <rect key="frame" x="42" y="14" width="78" height="18"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="justified" drawsBackground="YES" id="692">
+                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="justified" drawsBackground="YES" id="692" customClass="VerticalCenteredCell">
                                         <font key="font" size="11" name="HelveticaNeue-Bold"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="backgroundColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -740,12 +740,12 @@
                                     </textFieldCell>
                                 </textField>
                                 <imageView id="687">
-                                    <rect key="frame" x="45" y="37" width="72" height="72"/>
+                                    <rect key="frame" x="45" y="-75" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="iphone" id="690"/>
                                 </imageView>
                                 <imageView id="688">
-                                    <rect key="frame" x="208" y="37" width="72" height="72"/>
+                                    <rect key="frame" x="208" y="-75" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="ipad" id="689"/>
                                 </imageView>
