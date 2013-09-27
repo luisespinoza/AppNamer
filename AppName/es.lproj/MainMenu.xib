@@ -699,12 +699,12 @@
                                     </textFieldCell>
                                 </textField>
                                 <imageView id="656">
-                                    <rect key="frame" x="45" y="-75" width="72" height="72"/>
+                                    <rect key="frame" x="45" y="36" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="iphone" id="657"/>
                                 </imageView>
                                 <imageView id="658">
-                                    <rect key="frame" x="208" y="-75" width="72" height="72"/>
+                                    <rect key="frame" x="208" y="36" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="ipad" id="659"/>
                                 </imageView>
@@ -740,12 +740,12 @@
                                     </textFieldCell>
                                 </textField>
                                 <imageView id="687">
-                                    <rect key="frame" x="45" y="-75" width="72" height="72"/>
+                                    <rect key="frame" x="45" y="36" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="iphone" id="690"/>
                                 </imageView>
                                 <imageView id="688">
-                                    <rect key="frame" x="208" y="-75" width="72" height="72"/>
+                                    <rect key="frame" x="208" y="36" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="ipad" id="689"/>
                                 </imageView>
