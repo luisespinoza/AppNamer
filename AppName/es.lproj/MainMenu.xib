@@ -742,12 +742,12 @@
                                 <imageView id="687">
                                     <rect key="frame" x="45" y="36" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="iphone" id="690"/>
+                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="iphone_ios7" id="690"/>
                                 </imageView>
                                 <imageView id="688">
                                     <rect key="frame" x="208" y="36" width="72" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="ipad" id="689"/>
+                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="ipad_ios7" id="689"/>
                                 </imageView>
                             </subviews>
                         </view>
@@ -779,6 +779,8 @@
     </objects>
     <resources>
         <image name="ipad" width="512" height="512"/>
+        <image name="ipad_ios7" width="512" height="512"/>
         <image name="iphone" width="512" height="512"/>
+        <image name="iphone_ios7" width="512" height="512"/>
     </resources>
 </document>

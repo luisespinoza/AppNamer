@@ -137,12 +137,12 @@
 - (void)configureBoxes
 {
     boxIOS6.borderColor = ROW_BORDER_COLOR;
-    boxIOS6.fillColor = ROW_LIGHT_COLOR;
+    boxIOS6.fillColor = ROW_DARK_COLOR;
     boxIOS6.titlePosition = NSBelowTop;
     boxIOS6.needsDisplay = YES;
     
     boxIOS7.borderColor = ROW_BORDER_COLOR;
-    boxIOS7.fillColor = ROW_DARK_COLOR;
+    boxIOS7.fillColor = ROW_LIGHT_COLOR;
     boxIOS7.titlePosition = NSBelowTop;
     boxIOS7.needsDisplay = YES;
 }
