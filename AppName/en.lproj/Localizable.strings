@@ -8,8 +8,10 @@
 
 /* Help tags */
 "APP_NAMER_HELP_TAG_INPUT_TEXT_FIELD" = "Write a name for your app";
-"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT" = "This is how the name will look in the iPhone home screen";
-"APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT" = "This is how the name will look in the iPad home screen";
+"APP_NAMER_HELP_TAG_IOS56_IPHONE_OUTPUT" = "This is how the name will look in the iPhone (iOS 6) home screen";
+"APP_NAMER_HELP_TAG_IOS56_IPAD_OUTPUT" = "This is how the name will look in the iPad (iOS 6) home screen";
+"APP_NAMER_HELP_TAG_IOS7_IPHONE_OUTPUT" = "This is how the name will look in the iPhone (iOS 7) home screen";
+"APP_NAMER_HELP_TAG_IOS7_IPAD_OUTPUT" = "This is how the name will look in the iPad (iOS 7) home screen";
 "APP_NAMER_HELP_TAG_FEEDBACK_BUTTON" = "Please, send us a mail with your feedback to make this a better app.";
 
 /* Feedback mail parameters */
