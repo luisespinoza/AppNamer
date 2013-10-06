@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A040CF67176FF46800762FC9 /* VerticalCenteredCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A040CF66176FF46800762FC9 /* VerticalCenteredCell.m */; };
+		A04617C21800F96500654B4D /* ipad_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A04617C01800F96500654B4D /* ipad_ios7@2x.png */; };
+		A04617C31800F96500654B4D /* iphone_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A04617C11800F96500654B4D /* iphone_ios7@2x.png */; };
 		A06136FC1763C8D400683950 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A06136FB1763C8D400683950 /* icon.icns */; };
 		A06BDCAA17ED3D38000E931B /* CustomNSBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A06BDCA917ED3D38000E931B /* CustomNSBox.m */; };
 		A0A1B19717136AFB00EBC3FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A1B19617136AFB00EBC3FF /* Cocoa.framework */; };
@@ -27,6 +29,8 @@
 /* Begin PBXFileReference section */
 		A040CF65176FF46800762FC9 /* VerticalCenteredCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalCenteredCell.h; sourceTree = "<group>"; };
 		A040CF66176FF46800762FC9 /* VerticalCenteredCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalCenteredCell.m; sourceTree = "<group>"; };
+		A04617C01800F96500654B4D /* ipad_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_ios7@2x.png"; sourceTree = "<group>"; };
+		A04617C11800F96500654B4D /* iphone_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone_ios7@2x.png"; sourceTree = "<group>"; };
 		A06136FB1763C8D400683950 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		A06BDCA817ED3D38000E931B /* CustomNSBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNSBox.h; sourceTree = "<group>"; };
 		A06BDCA917ED3D38000E931B /* CustomNSBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNSBox.m; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 				A0B0A1A7174C634800992BC3 /* ipad.png */,
 				A0AE312417FE619C00A9A479 /* ipad_ios7.png */,
 				A0AE312517FE619C00A9A479 /* iphone_ios7.png */,
+				A04617C01800F96500654B4D /* ipad_ios7@2x.png */,
+				A04617C11800F96500654B4D /* iphone_ios7@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -229,8 +235,10 @@
 				A0B0A1A6174C631A00992BC3 /* iphone.png in Resources */,
 				A0B0A1A8174C634800992BC3 /* ipad.png in Resources */,
 				A06136FC1763C8D400683950 /* icon.icns in Resources */,
+				A04617C21800F96500654B4D /* ipad_ios7@2x.png in Resources */,
 				A0A8AB1D1765858900350DC7 /* Localizable.strings in Resources */,
 				A0AE312617FE619C00A9A479 /* ipad_ios7.png in Resources */,
+				A04617C31800F96500654B4D /* iphone_ios7@2x.png in Resources */,
 				A0AE312717FE619C00A9A479 /* iphone_ios7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

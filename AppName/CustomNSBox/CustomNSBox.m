@@ -37,6 +37,8 @@
     
     //Draw the title
     [[self titleCell] drawWithFrame:[self titleRect] inView:self];
+    
+    
 }
 
 @end
