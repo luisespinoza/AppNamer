@@ -18,6 +18,7 @@
 		A0A1B1A717136AFB00EBC3FF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A0A1B1A517136AFB00EBC3FF /* Credits.rtf */; };
 		A0A1B1AA17136AFB00EBC3FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */; };
 		A0A1B1AD17136AFB00EBC3FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A1B1AB17136AFB00EBC3FF /* MainMenu.xib */; };
+		A0A82DFF1810D19F00D9EA17 /* CustomMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A82DFE1810D19F00D9EA17 /* CustomMainView.m */; };
 		A0A8AB1D1765858900350DC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A8AB1B1765858900350DC7 /* Localizable.strings */; };
 		A0AE312617FE619C00A9A479 /* ipad_ios7.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AE312417FE619C00A9A479 /* ipad_ios7.png */; };
 		A0AE312717FE619C00A9A479 /* iphone_ios7.png in Resources */ = {isa = PBXBuildFile; fileRef = A0AE312517FE619C00A9A479 /* iphone_ios7.png */; };
@@ -48,6 +49,8 @@
 		A0A1B1A817136AFB00EBC3FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A0A1B1AC17136AFB00EBC3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0A82DFD1810D19F00D9EA17 /* CustomMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMainView.h; sourceTree = "<group>"; };
+		A0A82DFE1810D19F00D9EA17 /* CustomMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMainView.m; sourceTree = "<group>"; };
 		A0A8AB1C1765858900350DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A0AE312417FE619C00A9A479 /* ipad_ios7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_ios7.png; sourceTree = "<group>"; };
 		A0AE312517FE619C00A9A479 /* iphone_ios7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_ios7.png; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 		A0A1B19C17136AFB00EBC3FF /* AppName */ = {
 			isa = PBXGroup;
 			children = (
+				A0A82DFC1810D18300D9EA17 /* CustomMainView */,
 				A06BDCA717ED3D23000E931B /* CustomNSBox */,
 				A0A1B1A817136AFB00EBC3FF /* AppDelegate.h */,
 				A0A1B1A917136AFB00EBC3FF /* AppDelegate.m */,
@@ -148,6 +152,15 @@
 				A0A8AB1B1765858900350DC7 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A82DFC1810D18300D9EA17 /* CustomMainView */ = {
+			isa = PBXGroup;
+			children = (
+				A0A82DFD1810D19F00D9EA17 /* CustomMainView.h */,
+				A0A82DFE1810D19F00D9EA17 /* CustomMainView.m */,
+			);
+			path = CustomMainView;
 			sourceTree = "<group>";
 		};
 		A0B0A17F1746B50700992BC3 /* Externals */ = {
@@ -270,6 +283,7 @@
 				A0A1B1AA17136AFB00EBC3FF /* AppDelegate.m in Sources */,
 				A0E6191A1740723C00F9483E /* MainViewController.m in Sources */,
 				A040CF67176FF46800762FC9 /* VerticalCenteredCell.m in Sources */,
+				A0A82DFF1810D19F00D9EA17 /* CustomMainView.m in Sources */,
 				A06BDCAA17ED3D38000E931B /* CustomNSBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

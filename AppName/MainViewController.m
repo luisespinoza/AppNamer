@@ -59,6 +59,9 @@
     [self configureiOS7iPhoneOutputTextField];
     
     [self configureiOS7iPadOutputTextField];
+    
+    
+    [self.view setNeedsDisplay:YES];
 }
 
 #pragma mark - iOS6 configurations
@@ -140,13 +143,14 @@
     boxIOS6.fillColor = ROW_DARK_COLOR;
     boxIOS6.titlePosition = NSBelowTop;
     boxIOS6.needsDisplay = YES;
-    boxIOS6.borderType = NSBezelBorder;
     
     boxIOS7.borderColor = ROW_BORDER_COLOR;
     boxIOS7.fillColor = ROW_LIGHT_COLOR;
     boxIOS7.titlePosition = NSBelowTop;
     boxIOS7.needsDisplay = YES;
 }
+
+
 #pragma mark -  Events and actions
 
 - (void)controlTextDidChange:(NSNotification *)obj

@@ -655,14 +655,14 @@
         </menu>
         <window title="AppNamer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
-            <rect key="contentRect" x="468" y="337" width="325" height="324"/>
+            <rect key="contentRect" x="468" y="337" width="325" height="338"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
-            <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="325" height="324"/>
+            <view key="contentView" id="372" customClass="CustomMainView">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="338"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" id="4m3-Tg-W49">
-                        <rect key="frame" x="69" y="282" width="186" height="22"/>
+                        <rect key="frame" x="69" y="296" width="186" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" bezelStyle="round" id="GF8-HD-D4C">
                             <font key="font" metaFont="system"/>
@@ -674,7 +674,7 @@
                         </connections>
                     </textField>
                     <box autoresizesSubviews="NO" wantsLayer="YES" cornerRadius="5" title="iOS 6" borderType="line" titlePosition="belowTop" id="GWf-cd-LhC" customClass="CustomNSBox">
-                        <rect key="frame" x="0.0" y="137" width="325" height="139"/>
+                        <rect key="frame" x="0.0" y="140" width="325" height="139"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="1" y="1" width="323" height="112"/>
