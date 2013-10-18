@@ -655,14 +655,14 @@
         </menu>
         <window title="AppNamer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
-            <rect key="contentRect" x="468" y="337" width="325" height="335"/>
+            <rect key="contentRect" x="468" y="337" width="325" height="338"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="325" height="335"/>
+                <rect key="frame" x="0.0" y="0.0" width="325" height="338"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" id="536">
-                        <rect key="frame" x="69" y="293" width="186" height="22"/>
+                        <rect key="frame" x="69" y="296" width="186" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" bezelStyle="round" id="537">
                             <font key="font" metaFont="system"/>
