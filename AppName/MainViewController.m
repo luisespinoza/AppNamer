@@ -140,6 +140,7 @@
     boxIOS6.fillColor = ROW_DARK_COLOR;
     boxIOS6.titlePosition = NSBelowTop;
     boxIOS6.needsDisplay = YES;
+    boxIOS6.borderType = NSBezelBorder;
     
     boxIOS7.borderColor = ROW_BORDER_COLOR;
     boxIOS7.fillColor = ROW_LIGHT_COLOR;
