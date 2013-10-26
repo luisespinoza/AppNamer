@@ -752,10 +752,10 @@
                                     <color key="fillColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                 </box>
                                 <box autoresizesSubviews="NO" borderWidth="0.0" boxType="custom" borderType="none" id="wII-Ok-9rB">
-                                    <rect key="frame" x="200" y="14" width="88" height="18"/>
+                                    <rect key="frame" x="200" y="14" width="88" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <view key="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="88" height="18"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="20"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </view>
                                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>

@@ -752,10 +752,10 @@
                                     <color key="fillColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                 </box>
                                 <box autoresizesSubviews="NO" borderWidth="0.0" boxType="custom" borderType="none" id="Eqd-ot-fX5">
-                                    <rect key="frame" x="200" y="14" width="88" height="18"/>
+                                    <rect key="frame" x="200" y="14" width="88" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <view key="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="88" height="18"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="20"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </view>
                                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
@@ -767,7 +767,7 @@
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="justified" drawsBackground="YES" id="692" customClass="VerticalCenteredCell">
                                         <font key="font" size="11" name="HelveticaNeue-Bold"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="backgroundColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="0.0" colorSpace="calibratedRGB"/>
                                     </textFieldCell>
                                 </textField>
                                 <textField autoresizesSubviews="NO" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="686">
@@ -776,7 +776,7 @@
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="justified" drawsBackground="YES" id="691" customClass="VerticalCenteredCell">
                                         <font key="font" size="16" name="HelveticaNeue-Bold"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="backgroundColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="0.0" colorSpace="calibratedRGB"/>
                                     </textFieldCell>
                                 </textField>
                                 <imageView id="687">

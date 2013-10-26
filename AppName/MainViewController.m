@@ -35,9 +35,8 @@
 #define IOS7_IPAD_OUTPUT_MAX_WIDTH              88
 #define IOS7_IPAD_OUTPUT_HEIGHT                 18
 #define IOS7_IPAD_OUTPUT_X                      (200+IOS7_IPAD_OUTPUT_MAX_WIDTH/2)
-#define IOS7_IPAD_OUTPUT_Y                      14
-#define IOS7_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue" size:13]
-#define IOS7_IPAD_OUTPUT_FONT_SIZE              14
+#define IOS7_IPAD_OUTPUT_Y                      16
+#define IOS7_IPAD_OUTPUT_FONT                   [NSFont fontWithName:@"Helvetica Neue" size:12.5]
 
 @implementation MainViewController
 
@@ -126,7 +125,6 @@
                                              IOS7_IPAD_OUTPUT_Y, 0, IOS7_IPAD_OUTPUT_HEIGHT);
         [[textLabelIpadIOS7 cell] setAlignment:NSJustifiedTextAlignment];
         textLabelIpadIOS7.font = IOS7_IPAD_OUTPUT_FONT;
-        //[[textLabelIpadIOS7 cell] setFont:[NSFont fontWithName:@"Helvetica Neue" size:14]];
         textLabelIpadIOS7.toolTip = NSLocalizedString(@"APP_NAMER_HELP_TAG_IOS7_IPAD_OUTPUT", @"");
     }
 }
@@ -172,12 +170,12 @@
         textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-textLabelIphone.frame.size.width/2,
                                            IOS6_IPHONE_OUTPUT_Y,
                                            textLabelIphone.frame.size.width,
-                                           16);
+                                           IOS6_IPHONE_OUTPUT_HEIGHT);
     } else {
         textLabelIphone.frame = CGRectMake(IOS6_IPHONE_OUTPUT_X-IOS6_IPHONE_OUTPUT_MAX_WIDTH/2,
                                            IOS6_IPHONE_OUTPUT_Y,
                                            IOS6_IPHONE_OUTPUT_MAX_WIDTH,
-                                           16);
+                                           IOS6_IPHONE_OUTPUT_HEIGHT);
     }
     
     //iPad iOS 6
@@ -187,12 +185,12 @@
         textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-textLabelIpad.frame.size.width/2,
                                          IOS6_IPAD_OUTPUT_Y,
                                          textLabelIpad.frame.size.width,
-                                         18);
+                                         IOS6_IPAD_OUTPUT_HEIGHT);
     } else {
         textLabelIpad.frame = CGRectMake(IOS6_IPAD_OUTPUT_X-IOS6_IPAD_OUTPUT_MAX_WIDTH/2,
                                          IOS6_IPAD_OUTPUT_Y,
                                          IOS6_IPAD_OUTPUT_MAX_WIDTH,
-                                         18);
+                                         IOS6_IPAD_OUTPUT_HEIGHT);
     }
     
     //iPhone iOS 7
